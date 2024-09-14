@@ -30,7 +30,7 @@ try:
 # if you don't want to use a config file delete the 2 lines under this, set INSTAGRAM_LINK = https://www.instagram.com/YOUR_PROFILE , and 'add time.sleep(7)' on the line below 'webbrowser.open(INSTAGRAM_LINK)'
     config = configparser.ConfigParser()
     config.read(INSTAGRAM_LINK_CONFIG_FILE)
-    INSTAGRAM_LINK = config.get('Settings', 'ProfileLink', fallback='https://www.instagram.com/YOUR_PROFILE')
+    INSTAGRAM_LINK = config.get('Settings', 'ProfileLink', fallback='https://www.instagram.com/edilek06/')
 
     webbrowser.open(INSTAGRAM_LINK)
 
